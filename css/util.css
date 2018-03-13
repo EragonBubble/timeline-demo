@@ -1,0 +1,137 @@
+div.consum-bar {
+	position: relative;
+	height: 8px;
+	width: 88%;
+}
+
+div.consum-bar .consum-count-bar {
+	position: absolute;
+	top: 0;
+	left: 0rem;
+	display: block;
+	width: 0.3rem;
+	height: 100%;
+}
+
+
+div.consum-bar .consum-count-bar.right {
+	left: initial;
+	right: 0.3rem;
+}
+
+
+div.consum-bar .consum-count-bar.right span.grade-count.count-40 {
+	height: .3rem;
+	line-height: .3rem;
+	font-size: .22rem;
+	margin-left: 0;
+	left: 0;
+	float: left;
+}
+
+div.consum-bar .consum-count-bar.right.rot-180 {
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+div.consum-bar .consum-count {
+	position: absolute;
+	top: 0;
+	left: 0.3rem;
+	right: 0.6rem;
+	height: 100%;
+}
+
+div.consum-bar .consum-count div.star-contain {
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #ECECEE;
+}
+
+div.consum-bar .consum-count div.star-contain div.fill {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 100%;
+	background: #FF9900;
+}
+
+div.consum-bar .consum-count div.star-contain div.fill .pos-fill{
+	position: relative;
+    height: 26px;
+    top: -18px;
+    right: -10px;
+    float: right;
+    z-index: 4;
+}
+
+div.consum-bar .consum-count div.star-contain span.grade-count {
+    position: absolute;
+    top: -40px;
+    width: 120px;
+    height: 40px;
+    /* background: lightblue; */
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #161616;
+}
+div.consum-bar .consum-count div.star-contain span.grade-count.grade-time {
+	top: 8px;
+}
+div.consum-bar .consum-count div.star-contain span.grade-count.dot {
+    top: -4px;
+    width: 12px;
+    height: 12px;
+    background: #FFFFFF;
+	border: 2px solid #C7C7CB;
+    border-radius: 12px;
+}
+div.consum-bar .consum-count div.star-contain span.grade-count.dot.active {
+    background: #FFFFFF;
+    border: 2px solid #FF9900;
+}
+
+.count-0 {
+	left: -60px;
+}
+
+.count-25 {
+	left: 15%;
+}
+
+.count-50 {
+	left: 40%;
+}
+
+.count-75 {
+	left: 65%;
+}
+
+.count-100 {
+	left: auto;
+	right: -60px;
+}
+.dot-0 {
+    left: -8px;
+}
+
+.dot-25 {
+	left: 25%;
+}
+
+.dot-50 {
+	left: 50%;
+}
+
+.dot-75 {
+	left: 75%;
+}
+
+.dot-100 {
+	left: auto;
+	right: -8px;
+}
