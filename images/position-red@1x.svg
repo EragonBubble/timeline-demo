@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="44px" viewBox="0 0 34 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>position@1x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="项目看板优化-确定-第2版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-903.000000, -343.000000)">
+        <g id="项目列表" transform="translate(0.000000, 310.000000)" fill="#FB5F4F" stroke="#FFFFFF" stroke-width="2.25">
+            <g id="Group-2" transform="translate(40.000000, 19.000000)">
+                <path d="M865,31.0537634 C865,22.6666667 871.790476,16 880.333333,16 C888.87619,16 895.666667,22.6666667 895.666667,31.0537634 C895.666667,42.2365591 884.149447,56 880.333333,56 C876.51722,56 865,42.2365591 865,31.0537634 Z M880.278571,36 C883.091279,36 885.371429,33.7614237 885.371429,31 C885.371429,28.2385763 883.091279,26 880.278571,26 C877.465864,26 875.185714,28.2385763 875.185714,31 C875.185714,33.7614237 877.465864,36 880.278571,36 Z" id="position"></path>
+            </g>
+        </g>
+    </g>
+</svg>

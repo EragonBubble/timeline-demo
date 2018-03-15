@@ -1,7 +1,7 @@
 div.consum-bar {
 	position: relative;
 	height: 8px;
-	width: 88%;
+	width: 100%;
 }
 
 div.consum-bar .consum-count-bar {
@@ -56,7 +56,13 @@ div.consum-bar .consum-count div.star-contain div.fill {
 	left: 0;
 	width: 40%;
 	height: 100%;
-	background: #FF9900;
+	background: #007CE7;
+}
+
+div.consum-bar .consum-count div.star-contain div.fill.fill-delay-high-light {
+    width: 12% !important;
+    left: 30% !important;
+    border-radius: 5px;
 }
 
 div.consum-bar .consum-count div.star-contain div.fill .pos-fill{
@@ -81,6 +87,8 @@ div.consum-bar .consum-count div.star-contain span.grade-count {
 }
 div.consum-bar .consum-count div.star-contain span.grade-count.grade-time {
 	top: 8px;
+	color: #626266;
+	font-weight: normal;
 }
 div.consum-bar .consum-count div.star-contain span.grade-count.dot {
     top: -4px;
@@ -89,6 +97,11 @@ div.consum-bar .consum-count div.star-contain span.grade-count.dot {
     background: #FFFFFF;
 	border: 2px solid #C7C7CB;
     border-radius: 12px;
+}
+div.consum-bar .consum-count div.star-contain span.grade-count.dot.dot-mini {
+	top: -2px;
+    width: 8px;
+    height: 8px;
 }
 div.consum-bar .consum-count div.star-contain span.grade-count.dot.active {
     background: #FFFFFF;
@@ -100,15 +113,15 @@ div.consum-bar .consum-count div.star-contain span.grade-count.dot.active {
 }
 
 .count-25 {
-	left: 15%;
+	left: 14%;
 }
 
 .count-50 {
-	left: 40%;
+	left: 39%;
 }
 
 .count-75 {
-	left: 65%;
+	left: 64%;
 }
 
 .count-100 {
@@ -120,18 +133,47 @@ div.consum-bar .consum-count div.star-contain span.grade-count.dot.active {
 }
 
 .dot-25 {
-	left: 25%;
+	left: 22%;
 }
 
 .dot-50 {
-	left: 50%;
+	left: 47%;
 }
 
 .dot-75 {
-	left: 75%;
+	left: 73%;
 }
 
 .dot-100 {
 	left: auto;
 	right: -8px;
+}
+/* dot 样式 */
+.dot-red{
+	border: 2px solid #FB5F4F !important;
+}
+.dot-orange{
+	border: 2px solid #FF9900 !important;
+}
+.dot-blue{
+	border: 2px solid #007CE7 !important;
+}
+/* fill 样式 */
+.fill-red{
+	background: #FB5F4F !important;
+}
+.fill-orange{
+	background: #FF9900 !important;
+}
+.fill-blue{
+	background: #007CE7 !important;
+}
+.fill-w-20{
+	width: 20% !important;
+}
+.fill-w-45{
+	width: 45% !important;
+}
+.fill-w-60{
+	width: 60% !important;
 }

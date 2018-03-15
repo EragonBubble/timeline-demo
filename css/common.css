@@ -1,63 +1,103 @@
+body{
+	margin: 0;
+}
 .ui-panel{
 	justify-content: flex-start;
-    min-width: 1125px;
+    min-width: 1600px;
 	padding: 0;
 	margin: 0;
 	border-radius: 3px;
 }
+.ui-panel-header-group{
+	font-size: 0;
+	line-height: 100px;
+	background: -webkit-linear-gradient(90deg, #00559D 28%, #00A0D9 100%); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(90deg, #00559D 28%, #00A0D9 100%); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(90deg, #00559D 28%, #00A0D9 100%); /* Firefox 3.6 - 15 */
+	background: linear-gradient(90deg, #00559D 28%, #00A0D9 100%); /* 标准的语法 */
+}
 .ui-panel-header{
-	text-align: center;	
+    display: inline-block;
+    width: 20%;
+    text-align: center;
     vertical-align: middle;
-    height: 60px;
-    line-height: 60px;
+    height: 100%;
     font-family: PingFangSC-Semibold;
-	font-size: 48px;
-	color: #FFFFFF;
-	line-height: 58.5px;
-	background-image: linear-gradient(5deg, #00559D 28%, #00A0D9 62%, #00559D 100%);
+    padding: 0 0 0 15px;
+    font-size: 48px;
+    color: #FFFFFF;
+    line-height: 58.5px;
+}
+.ui-panel-ad{
+	display: inline-block;
+    width: 75%;
+    font-size: 40px;
+    vertical-align: middle;
+    color: #FFFFFF;
+    line-height: 48px;
+    padding-left: 2%;
+}
+i.ui-ad-icon{
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    background: url(../images/notice@1x.png) no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 .ui-panel-body{
 	width: 100%;
+}
+.text-center{
+	text-align: center !important;
 }
 .ui-table {
     width: 100%;
     background-color: transparent;
 }
 .ui-table thead tr{
-	background: #F0F0F6;
 	height: 50px;
+	background: -webkit-linear-gradient(90deg, #00559D 38%, #00A0D9 100%); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(90deg, #00559D 38%, #00A0D9 100%); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(90deg, #00559D 38%, #00A0D9 100%); /* Firefox 3.6 - 15 */
+	background: linear-gradient(90deg, #00559D 38%, #00A0D9 100%); /* 标准的语法 */
 }
 .ui-table thead tr th{
 	font-family: PingFangSC-Semibold;
 	height: 35px;
     border:none;
     line-height: 35px;
-    font-weight: normal;
+    font-weight: bold;
 	font-size: 28px;
-	color: #161616;
-	text-align: left;
+	color: #FFFFFF;
+	text-align: center;
 }
 .ui-table tbody tr.even{
 	background: rgba(240,240,246,0.60);
 }
 .ui-table tbody td{
 	box-sizing: border-box;
-    height: 40px;
     border-bottom: 1px solid #efefef;
-    padding: 10px 8px;
+    padding: 10px 0;
     white-space: normal;
     word-wrap: break-word;
     word-break: break-all;
+    text-align: center;
+    line-height: 80px;
+    font-weight: bold;
+}
+.ui-progress-td{
+	padding: 0 60px !important;
 }
 .ui-table .id{
-	width: 55px;
-	min-width: 55px;
-	max-width: 55px;
+	width: 72px;
+	min-width: 72px;
+	max-width: 85px;
 }
 .ui-table .pro-name{
-	width: 120px;
-	min-width: 120px;
-	max-width: 120px;
+	width: 220px;
+	min-width: 220px;
+	max-width: 240px;
 }
 .ui-table .pro-jl{
 	width: 120px;
@@ -65,9 +105,9 @@
 	max-width: 120px;
 }
 .ui-table .pro-plan{
-	width: 450px;
-	min-width: 450px;
-	max-width: 450px;
+	width: 620px;
+	min-width: 620px;
+	max-width: 620px;
 }
 .ui-table .cur-term{
 	width: 120px;
@@ -97,6 +137,15 @@
 	font-size: 20px;
 	color: #161616;
 }
+.h-48{
+	height: 48px !important;
+}
+.h-60{
+	height: 60px !important;
+}
+.h-80{
+	height: 80px !important;
+}
 /* -------- 节点 ---------- */
 .ui-dot{
 	display: inline-block;
@@ -117,13 +166,13 @@
 }
 /* --------- 标识颜色 ------*/
 .ui-level-normal{
-	color: #161616 !important;
+	color: #007CE7 !important;
 }
 .ui-level-delay{
 	color: #FE3824 !important;
 }
 .ui-level-notice{
-	color: #0099FF !important;
+	color: #FF9900 !important;
 }
 /* ------- 研发过程 ---------*/
 .ui-pro-group{
