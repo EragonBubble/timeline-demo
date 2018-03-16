@@ -3,7 +3,7 @@ body{
 }
 .ui-panel{
 	justify-content: flex-start;
-    min-width: 1600px;
+    width: 100%;
 	padding: 0;
 	margin: 0;
 	border-radius: 3px;
@@ -40,10 +40,12 @@ body{
 .ui-panel-ad-content{
 	display: inline-block;
     vertical-align: middle;
+    width: 90%;
 }
 i.ui-ad-icon{
     display: inline-block;
-    width: 60px;
+    width: 5%;
+    min-width: 60px;
     height: 40px;
     background: url(../images/notice@1x.png) no-repeat;
     vertical-align: middle;
@@ -87,41 +89,31 @@ i.ui-ad-icon{
     word-wrap: break-word;
     word-break: break-all;
     text-align: center;
-    line-height: 80px;
+    line-height: 94px;
     font-weight: bold;
 }
 .ui-progress-td{
 	padding: 0 60px !important;
 }
 .ui-table .id{
-	width: 72px;
-	min-width: 72px;
-	max-width: 85px;
+	width: 3.4%;
 }
 .ui-table .pro-name{
-	width: 220px;
-	min-width: 220px;
-	max-width: 240px;
+	width: 18.3%;
+	min-width: 218px;
 }
 .ui-table .pro-jl{
-	width: 120px;
-	min-width: 120px;
-	max-width: 120px;
+	width: 10%;
 }
 .ui-table .pro-plan{
-	width: 620px;
-	min-width: 620px;
-	max-width: 620px;
+	width: 48.3%;
+	min-width: 612px;
 }
 .ui-table .cur-term{
-	width: 120px;
-	min-width: 120px;
-	max-width: 120px;
+	width: 10%;
 }
 .ui-table .cur-status{
-	width: 120px;
-	min-width: 120px;
-	max-width: 120px;
+	width: 10%;
 }
 /* --------- 单元格样式 -------*/
 .ui-td-title{
