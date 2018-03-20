@@ -34,7 +34,7 @@ body{
     font-size: 40px;
     vertical-align: middle;
     color: #FFFFFF;
-    line-height: 48px;
+    line-height: 40px;
     padding-left: 2%;
 }
 .ui-panel-ad-content{
@@ -49,7 +49,7 @@ i.ui-ad-icon{
     height: 40px;
     background: url(../images/notice@1x.png) no-repeat;
     vertical-align: middle;
-    margin-right: 5px;
+    /* margin-right: 5px; */
 }
 .ui-panel-body{
 	width: 100%;
@@ -63,10 +63,7 @@ i.ui-ad-icon{
 }
 .ui-table thead tr{
 	height: 50px;
-	background: -webkit-linear-gradient(90deg, #00559D 38%, #00A0D9 100%); /* Safari 5.1 - 6.0 */
-	background: -o-linear-gradient(90deg, #00559D 38%, #00A0D9 100%); /* Opera 11.1 - 12.0 */
-	background: -moz-linear-gradient(90deg, #00559D 38%, #00A0D9 100%); /* Firefox 3.6 - 15 */
-	background: linear-gradient(90deg, #00559D 38%, #00A0D9 100%); /* 标准的语法 */
+	background: #034d8c;
 }
 .ui-table thead tr th{
 	font-family: PingFangSC-Semibold;
