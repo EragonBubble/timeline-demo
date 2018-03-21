@@ -61,7 +61,7 @@ div.consum-bar .consum-count div.star-contain div.fill {
 
 div.consum-bar .consum-count div.star-contain div.fill.fill-delay-high-light {
     width: 12% !important;
-    left: 30% !important;
+    left: 25% !important;
     border-radius: 5px;
 }
 
@@ -82,7 +82,7 @@ div.consum-bar .consum-count div.star-contain span.grade-count {
     /* background: lightblue; */
     text-align: center;
     line-height: 40px;
-    font-size: 20px;
+    font-size: 18px;
     color: #161616;
 }
 div.consum-bar .consum-count div.star-contain span.grade-count.grade-time {
@@ -111,17 +111,23 @@ div.consum-bar .consum-count div.star-contain span.grade-count.dot.active {
 .count-0 {
 	left: -60px;
 }
-
+.count-10{
+	left: 10%;
+}
 .count-25 {
-	left: 14%;
+	left: 25%;
 }
-
+.count-30{
+	left: 30%;
+}
 .count-50 {
-	left: 39%;
+	left: 50%;
 }
-
+.count-70 {
+	left: 70%;
+}
 .count-75 {
-	left: 64%;
+	left: 75%;
 }
 
 .count-100 {
@@ -131,19 +137,36 @@ div.consum-bar .consum-count div.star-contain span.grade-count.dot.active {
 .dot-0 {
     left: -8px;
 }
-
+.dot-10{
+	left: 10%;
+}
+.dot-18{
+	left: 18%;
+}
 .dot-25 {
-	left: 22%;
+	left: 25%;
 }
-
+.dot-30{
+	left: 30%;
+}
+.dot-39{
+	left: 39%;
+}
 .dot-50 {
-	left: 47%;
+	left: 50%;
 }
-
+.dot-59 {
+	left: 59%;
+}
+.dot-70 {
+	left: 70%;
+}
 .dot-75 {
-	left: 73%;
+	left: 75%;
 }
-
+.dot-79 {
+	left: 79%;
+}
 .dot-100 {
 	left: auto;
 	right: -8px;
