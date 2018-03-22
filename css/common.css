@@ -4,6 +4,7 @@ body{
 .ui-panel{
 	justify-content: flex-start;
     width: 100%;
+    min-width: 1306px;
 	padding: 0;
 	margin: 0;
 	border-radius: 3px;
@@ -23,19 +24,19 @@ body{
     vertical-align: middle;
     height: 100%;
     font-family: PingFangSC-Semibold;
-    padding: 0 0 0 15px;
+    /* padding: 0 0 0 15px; */
     font-size: 48px;
     color: #FFFFFF;
     line-height: 58.5px;
 }
 .ui-panel-ad{
 	display: inline-block;
-    width: 75%;
+    width: 80%;
     font-size: 40px;
     vertical-align: middle;
     color: #FFFFFF;
     line-height: 40px;
-    padding-left: 2%;
+    /* padding-left: 2%; */
 }
 .ui-panel-ad-content{
 	display: inline-block;
@@ -49,7 +50,8 @@ i.ui-ad-icon{
     height: 40px;
     background: url(../images/notice@1x.png) no-repeat;
     vertical-align: middle;
-    /* margin-right: 5px; */
+    margin-right: 5px;
+    margin-left: 15px;
 }
 .ui-panel-body{
 	width: 100%;
@@ -74,6 +76,7 @@ i.ui-ad-icon{
 	font-size: 28px;
 	color: #FFFFFF;
 	text-align: center;
+	vertical-align: middle;
 }
 .ui-table tbody tr.even{
 	background: rgba(240,240,246,0.60);
@@ -94,23 +97,27 @@ i.ui-ad-icon{
 }
 .ui-table .id{
 	width: 3.4%;
+	min-width: 50px;
 }
 .ui-table .pro-name{
-	width: 18.3%;
+	width: 16.6%;
 	min-width: 218px;
 }
 .ui-table .pro-jl{
 	width: 10%;
+	min-width: 142px;
 }
 .ui-table .pro-plan{
-	width: 48.3%;
+	width: 49%;
 	min-width: 612px;
 }
 .ui-table .cur-term{
 	width: 10%;
+	min-width: 142px;
 }
 .ui-table .cur-status{
 	width: 10%;
+	min-width: 142px;
 }
 /* --------- 单元格样式 -------*/
 .ui-td-title{
