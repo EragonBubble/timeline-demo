@@ -9,6 +9,16 @@ body{
 	margin: 0;
 	border-radius: 3px;
 }
+.ui-panel-header-svip{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+	background: #00559D url(../images/banner@1x.png) no-repeat fixed top;
+}
 .ui-panel-header-group{
 	font-size: 0;
 	line-height: 100px;
@@ -23,35 +33,29 @@ body{
     text-align: center;
     vertical-align: middle;
     height: 100%;
-    font-family: PingFangSC-Semibold;
-    /* padding: 0 0 0 15px; */
     font-size: 48px;
     color: #FFFFFF;
     line-height: 58.5px;
 }
 .ui-panel-ad{
-	display: inline-block;
-    width: 80%;
-    font-size: 40px;
-    vertical-align: middle;
-    color: #FFFFFF;
-    line-height: 40px;
-    /* padding-left: 2%; */
-}
-.ui-panel-ad-content{
-	display: inline-block;
-    vertical-align: middle;
-    width: 90%;
+    display: inline-block;
+    width: 76%;
 }
 i.ui-ad-icon{
     display: inline-block;
     width: 5%;
-    min-width: 60px;
-    height: 40px;
-    background: url(../images/notice@1x.png) no-repeat;
-    vertical-align: middle;
-    margin-right: 5px;
-    margin-left: 15px;
+    min-width: 22px;
+    height: 22px;
+    background: url(../images/notice@1x.png) no-repeat center;
+    background-size: 22px;
+}
+.ui-panel-ad-content{
+    display: inline-block;
+    width: 90%;
+    font-size: 18px;
+    height: 18px;
+    line-height: 50px;
+    vertical-align: top;
 }
 .ui-panel-body{
 	width: 100%;
@@ -65,18 +69,17 @@ i.ui-ad-icon{
 }
 .ui-table thead tr{
 	height: 50px;
-	background: #034d8c;
+	background: #036FCD;
 }
 .ui-table thead tr th{
-	font-family: PingFangSC-Semibold;
-	height: 35px;
-    border:none;
-    line-height: 35px;
+	height: 28px;
+    border: none;
+    line-height: 28px;
     font-weight: bold;
-	font-size: 28px;
-	color: #FFFFFF;
-	text-align: center;
-	vertical-align: middle;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-align: left;
+    vertical-align: middle;
 }
 .ui-table tbody tr.even{
 	background: rgba(240,240,246,0.60);
@@ -88,9 +91,9 @@ i.ui-ad-icon{
     white-space: normal;
     word-wrap: break-word;
     word-break: break-all;
-    text-align: center;
+    text-align: left;
     line-height: 94px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .ui-progress-td{
 	padding: 0 60px !important;
@@ -107,9 +110,15 @@ i.ui-ad-icon{
 	width: 10%;
 	min-width: 142px;
 }
-.ui-table .pro-plan{
+.ui-table .pro-plan-group{
 	width: 49%;
 	min-width: 612px;
+	padding: 0 0 0 30px;
+	line-height: 50px;
+}
+.ui-table .pro-plan-group .pro-plan{
+	width: 24%;
+	min-width: 142px;
 }
 .ui-table .cur-term{
 	width: 10%;
@@ -121,7 +130,6 @@ i.ui-ad-icon{
 }
 /* --------- 单元格样式 -------*/
 .ui-td-title{
-	font-family: PingFangSC-Semibold;
 	font-size: 32px;
 	color: #161616;
 	line-height: 48px;
@@ -133,7 +141,6 @@ i.ui-ad-icon{
 	line-height: 20px;
 }
 .ui-td-summary-content{
-	font-family: PingFangSC-Semibold;
 	font-size: 20px;
 	color: #161616;
 }
@@ -182,7 +189,6 @@ i.ui-ad-icon{
 	float: left;
 }
 .ui-td-pro-flow{
-	font-family: PingFangSC-Semibold;
 	font-size: 16px;
 	color: #161616;
 	line-height: 20px;
