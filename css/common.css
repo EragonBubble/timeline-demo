@@ -4,7 +4,7 @@ body{
 .ui-panel{
 	justify-content: flex-start;
     width: 100%;
-    min-width: 1336px;
+    min-width: 1261px;
 	padding: 0;
 	margin: 0;
 	border-radius: 3px;
@@ -93,7 +93,7 @@ i.ui-ad-icon{
     word-wrap: break-word;
     word-break: break-all;
     text-align: left;
-    line-height: 100px;
+    line-height: 94px;
     /* font-weight: bold; */
 }
 .ui-progress-td{
